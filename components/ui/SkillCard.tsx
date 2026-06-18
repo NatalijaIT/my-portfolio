@@ -10,7 +10,7 @@ export default function SkillCard({ name, icon }: Props) {
     <div
       className="
         relative
-        w-40
+        w-28
         rounded-xl
         p-[2px]
         bg-gradient-to-r
@@ -21,8 +21,8 @@ export default function SkillCard({ name, icon }: Props) {
         transition
       "
     >
-      <div className="bg-white dark:bg-black rounded-xl p-5 flex flex-col items-center gap-3 h-[-webkit-fill-available]">
-        <Image src={icon} alt={name} width={60} height={60} />
+      <div className="bg-white dark:bg-black rounded-xl p-3 flex flex-col items-center gap-2 h-[-webkit-fill-available]">
+        <Image src={icon} alt={name} width={36} height={36} />
         <p className="text-zinc-800 dark:text-white tracking-widest text-xs">{name}</p>
       </div>
     </div>

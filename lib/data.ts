@@ -2,13 +2,17 @@ import type { Project, Skill } from './types';
 
 export const projects: Project[] = [
   {
-    title: 'Ukrainian Food',
-    description: 'A Next.js application for discovering and sharing traditional Ukrainian recipes.',
-    tags: ['Next.js', 'TypeScript', 'React', 'TanStack Query', 'React Hook Form', 'MongoDB', 'AWS S3'],
+    title: 'Dishes Around the World',
+    description: 'A Next.js application for discovering and sharing traditional recipes.',
+    tags: ['Next.js', 'TypeScript', 'React', 'TanStack Query', 'React Hook Form', 'MongoDB', 'Cloudflare'],
     href: 'https://next-js-ukr-food-app-tvhq.vercel.app/',
     repo: 'https://github.com/NatalijaIT/NextJS-Ukr-food-app',
-    images: ['/images/project-1-1.png', '/images/project-1-2.png', '/images/project-1-3.png'],
-    details: 'Users can register and log in, browse a public gallery of Ukrainian recipes, view detailed cooking instructions with images, and share their own recipes with image uploads. Authenticated users can also edit or delete the recipes they created, while the application ensures secure access and ownership protection.',
+    images: [
+      'https://pub-4f4a2eaf8dee4b5796d383446a4d350a.r2.dev/project-1-1.png',
+      'https://pub-4f4a2eaf8dee4b5796d383446a4d350a.r2.dev/project-1-2.png',
+      'https://pub-4f4a2eaf8dee4b5796d383446a4d350a.r2.dev/project-1-3.png',
+    ],
+    details: 'Users can register and log in, browse a public gallery of recipes, view detailed cooking instructions with images, and share their own recipes with image uploads. Authenticated users can also edit or delete the recipes they created, while the application ensures secure access and ownership protection.',
   },
 ];
 
@@ -22,7 +26,7 @@ export const skills: Skill[] = [
   { name: "React", icon: "/icons/react.png" },
   { name: "Redux", icon: "/icons/redux.png" },
   { name: "Next.js", icon: "/icons/next.png" },
-  { name: "AWS S3", icon: "/icons/s3.png" },
+  { name: "Cloudflare R2", icon: "/icons/r2.svg" },
   { name: "MongoDB", icon: "/icons/mongodb.png" },
   { name: "Git", icon: "/icons/git.png" },
 ];

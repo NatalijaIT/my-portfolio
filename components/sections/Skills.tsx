@@ -6,9 +6,9 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="bg-zinc-50 py-24 px-6 dark:bg-zinc-900/50"
+      className="bg-zinc-50 py-10 px-6 dark:bg-zinc-900/50"
     >
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-7xl">
         <SectionHeading title="Skills" subtitle="Technologies I work with" />
         <div>
           <div className="flex flex-wrap gap-10 justify-center">

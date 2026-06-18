@@ -3,8 +3,8 @@ import Button from '@/components/ui/Button';
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-white py-24 px-6 dark:bg-zinc-950">
-      <div className="mx-auto max-w-3xl text-center">
+    <section id="contact" className="bg-white py-10 px-6 dark:bg-zinc-950">
+      <div className="mx-auto max-w-7xl text-center">
         <SectionHeading
           title="Get In Touch"
           subtitle="Have a project or opportunity? I'd love to hear from you."
