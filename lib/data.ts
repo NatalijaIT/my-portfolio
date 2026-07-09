@@ -2,7 +2,7 @@ import type { Project, Skill } from './types';
 
 export const projects: Project[] = [
   {
-    title: 'Dishes Around the World',
+    title: 'Taste the World',
     description: 'A Next.js application for discovering and sharing traditional recipes.',
     tags: ['Next.js', 'TypeScript', 'React', 'TanStack Query', 'React Hook Form', 'MongoDB', 'Cloudflare'],
     href: 'https://next-js-ukr-food-app-tvhq.vercel.app/',
